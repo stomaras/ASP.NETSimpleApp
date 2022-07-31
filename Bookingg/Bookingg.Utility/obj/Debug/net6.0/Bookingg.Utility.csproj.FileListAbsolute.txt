@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\bin\Debug\net6.0\Bookingg.Utility.deps.json
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\bin\Debug\net6.0\Bookingg.Utility.dll
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\bin\Debug\net6.0\Bookingg.Utility.pdb
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.AssemblyInfo.cs
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.dll
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\refint\Bookingg.Utility.dll
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.pdb
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\ref\Bookingg.Utility.dll
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\bin\Debug\net6.0\Booking.Models.dll
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\bin\Debug\net6.0\Booking.Models.pdb
+C:\Users\user\source\repos\Bookingg\Bookingg.Utility\obj\Debug\net6.0\Bookingg.Utility.csproj.CopyComplete

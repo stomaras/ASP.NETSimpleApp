@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\Bookingg\Booking.Models\bin\Debug\net6.0\Booking.Models.deps.json
+C:\Users\user\source\repos\Bookingg\Booking.Models\bin\Debug\net6.0\Booking.Models.dll
+C:\Users\user\source\repos\Bookingg\Booking.Models\bin\Debug\net6.0\Booking.Models.pdb
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.AssemblyInfo.cs
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.dll
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\refint\Booking.Models.dll
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\Booking.Models.pdb
+C:\Users\user\source\repos\Bookingg\Booking.Models\obj\Debug\net6.0\ref\Booking.Models.dll
