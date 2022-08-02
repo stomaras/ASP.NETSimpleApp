@@ -23,18 +23,22 @@ namespace Booking.Models
 
         [Required]
         [Range(1,10000)]
+        [Display(Name ="List Price")]
         public double ListPrice { get; set; }
 
         [Required]
         [Range(1,10000)]
+        [Display(Name = "Price For 1-50")]
         public double Price { get; set; }
 
         [Required]
         [Range(1,10000)]
+        [Display(Name = "Price For 51-100")]
         public double Price50 { get; set; }
 
         [Required]
         [Range(1,10000)]
+        [Display(Name ="Price For 100+")]
         public double Price100 { get; set; }
 
         [ValidateNever]
@@ -43,11 +47,13 @@ namespace Booking.Models
         [Required]
         public int CategoryId { get; set; }
         [ValidateNever]
+        [Display(Name = "Category")]
         public Category Category { get; set; }
 
         [Required]
         public int CoverTypeId { get; set; }
         [ValidateNever]
+        [Display(Name ="Cover Type")]
         public CoverType CoverType { get; set; }
 
     }

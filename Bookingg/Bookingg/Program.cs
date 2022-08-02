@@ -93,4 +93,20 @@ app.Run();
  *            
  *            when i upload file with the same name everything will be a mess so i use 
  *            Guid.NewGuid().ToString()
+ *            
+ * Data from the API Call and and from the ajax request must be same case sensitive
+ * 
+ * Steps to Load a Data Table
+ * 1) in the layout load css file, js file
+ * 2) in the view page create a section Scripts for all the scripts toy will need
+ * 3) in wwwroot/js folder you hit with ajax call in table we want to load data with api call
+ * 4) columns in the ajax call must match with columns in datatable html
+ * 
+ * when we update an imger we must delete the image which exists inside wwwroot/images/products
+ * 
+ * if we don't put an hidden input field in upsert.cshtml always the id will be zero
+ * 
+ * with that way the id will populated:
+ *  <input asp-for="product.Id" hidden />
+ * we also add a hidden property for image url 
  */

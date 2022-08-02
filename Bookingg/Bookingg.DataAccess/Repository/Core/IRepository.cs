@@ -11,9 +11,9 @@ namespace Bookingg.DataAccess.Repository.Core
     {
         // T- Category for now can be any entity
 
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(string? includeProperties = null);
         void Add(T entity);
-        T GetFirstOrDefault(Expression<Func<T, bool>> filter);
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);// will remove a collection of entites
     }

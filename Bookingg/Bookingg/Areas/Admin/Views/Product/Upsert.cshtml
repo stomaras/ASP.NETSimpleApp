@@ -3,11 +3,13 @@
 @{
 }
 
-
-
-
  <form method="post" asp-action="Upsert" enctype="multipart/form-data">
-     <div class="border p-3 mt-4 row">
+     <input asp-for="product.Id" hidden />
+     <input asp-for="product.ImageUrl" hidden/>
+
+     <div class="row">
+         <div class="col-10">
+       <div class="border p-3 mt-4 row">
          <div class="row pb-2">
              <h2 class="text-primary">@(Model.product.Id!=0 ? "Update" : "Create") Product</h2>
              <hr/>
@@ -34,22 +36,22 @@
              <span asp-validation-for="product.Author" class="text-danger"></span>
          </div>
          <div class="mb-3 col-6">
-             <label asp-for="product.ListPrice">ListPrice</label>
+             <label asp-for="product.ListPrice">List Price</label>
              <input asp-for="product.ListPrice" class="form-control" />
              <span asp-validation-for="product.ListPrice" class="text-danger"></span>
          </div>
           <div class="mb-3 col-6">
-             <label asp-for="product.Price">Price</label>
+             <label asp-for="product.Price">Price 0-50</label>
              <input asp-for="product.Price" class="form-control" />
              <span asp-validation-for="product.Price" class="text-danger"></span>
          </div>
          <div class="mb-3 col-6">
-             <label asp-for="product.Price50">Price50</label>
+             <label asp-for="product.Price50">Price 51-100</label>
              <input asp-for="product.Price50" class="form-control" />
              <span asp-validation-for="product.Price50" class="text-danger"></span>
          </div>
          <div class="mb-3 col-6">
-             <label asp-for="product.Price100">Price100</label>
+             <label asp-for="product.Price100">Price 100+</label>
              <input asp-for="product.Price100" class="form-control" />
              <span asp-validation-for="product.Price100" class="text-danger"></span>
          </div>
@@ -61,14 +63,14 @@
              <span asp-validation-for="product.CategoryId" class="text-danger"></span>
          </div>
           <div class="mb-3 col-6">
-             <label asp-for="product.CoverTypeId">Price100</label>
+             <label asp-for="product.CoverTypeId">Cover Type</label>
              <select asp-for="product.CoverTypeId" asp-items="@Model.CoverTypeList" class="form-select">
                  <option disabled selected>--Select Cover Type--</option>
              </select>
              <span asp-validation-for="product.CoverTypeId" class="text-danger"></span>
          </div>
          <div class="mb-3">
-             <label asp-for="product.ImageUrl">Price100</label>
+             <label asp-for="product.ImageUrl">Choose a photo</label>
              <input type="file" id="uploadBox" name="file" class="form-control"/>
          </div>
         <div class="col-12">
@@ -85,6 +87,14 @@
         </div>
          
      </div>
+         </div>
+         <div class="col-2 pt-4">
+             <img src="@Model.product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+         </div>
+     </div>
+
+
+    
 </form>
 
 @section Scripts{
